@@ -84,7 +84,7 @@
 }
 
 .links a:hover{
-    opacity: 0.95;
+    transform: scale(1.1);
 }
 
 .links a img{
