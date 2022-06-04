@@ -21,11 +21,13 @@
     display: flex;
     align-items: center;
     border-radius: 10px;
+    position: relative;
 }
 
 .profile-img{
-    width: 150px;
-    /* border-radius: 50%; */
+    width: 170px;
+    height: 210px;
+    /* border-radius: 10%; */
     /* border: 18px solid #f4eeff; */
 }
 
@@ -38,7 +40,6 @@
 .info h1{
     color: #333;
     font-size: 26px;
-    font-weight: 500;
     margin-bottom: 10px;
 }
 
@@ -72,4 +73,37 @@
     text-decoration: none;
     display: inline-flex;
     align-items: center;
+    height: 50px;
+    background: #8749fd;
+    color: #fff;
+    border-radius: 5px;
+    border: 2px solid #8749fd;
+    padding: 10px 30px;
+    margin-right: 20px;
+    font-size: 12px;
+}
+
+.links a:hover{
+    opacity: 0.95;
+}
+
+.links a img{
+    width: 25px;
+    margin-right: 10px;
+}
+
+.links .msg-btn{
+    background-color: #fff;
+    color: #8749fd;
+}
+
+.share-icon{
+    position: absolute;
+    width: 40px;
+    top: 20px;
+    right: 25px;
+    background-color: #f4eeff;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
 }
